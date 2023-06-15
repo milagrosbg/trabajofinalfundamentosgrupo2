@@ -1,0 +1,459 @@
+{
+	"info": {
+		"_postman_id": "44b9dfa1-ca42-47fc-9601-3a28942fef49",
+		"name": "TP_FUNDAMENTOS.Postman.Grupo2 Final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27922637"
+	},
+	"item": [
+		{
+			"name": "Insertamos nuestro primer producto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":451,\r\n    \"nombre\":\"Ojos1\",\r\n    \"precio\":2000,\r\n    \"stock\":100,\r\n    \"marca\":\"Loreal\",\r\n    \"color\":\"Marron\",\r\n    \"acabado\": \"Mate\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Ojos2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":352,\r\n    \"nombre\":\"Ojos2\",\r\n    \"precio\":3000,\r\n    \"stock\":150,\r\n    \"marca\":\"Maybelline\",\r\n    \"color\":\"Dorado\",\r\n    \"acabado\": \"Satinado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Ojos3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":567,\r\n    \"nombre\":\"Ojos3\",\r\n    \"precio\":4000,\r\n    \"stock\":140,\r\n    \"marca\":\"Revlon\",\r\n    \"color\":\"Negro\",\r\n    \"acabado\": \"Metalico\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Labios1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":890,\r\n    \"nombre\":\"Labios1\",\r\n    \"precio\":2500,\r\n    \"stock\":140,\r\n    \"marca\":\"Loreal\",\r\n    \"color\":\"Rojo\",\r\n    \"acabado\": \"Mate\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Labios2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":223,\r\n    \"nombre\":\"Labios2\",\r\n    \"precio\":3450,\r\n    \"stock\":90,\r\n    \"marca\":\"Maybelline\",\r\n    \"color\":\"Nude\",\r\n    \"acabado\": \"Gloss\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Labios3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":123,\r\n    \"nombre\":\"Labios3\",\r\n    \"precio\":4200,\r\n    \"stock\":120,\r\n    \"marca\":\"Revlon\",\r\n    \"color\":\"Rosa\",\r\n    \"acabado\": \"Brillante\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Rostro1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":765,\r\n    \"nombre\":\"Rostro1\",\r\n    \"precio\":3000,\r\n    \"stock\":240,\r\n    \"marca\":\"Revlon\",\r\n    \"color\":\"Caramelo\",\r\n    \"acabado\": \"Mate\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Rostro2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":891,\r\n    \"nombre\":\"Rostro2\",\r\n    \"precio\":2900,\r\n    \"stock\":200,\r\n    \"marca\":\"Loreal\",\r\n    \"color\":\"Bronce\",\r\n    \"acabado\": \"Luminoso\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Rostro3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":342,\r\n    \"nombre\":\"Rostro3\",\r\n    \"precio\":3400,\r\n    \"stock\":80,\r\n    \"marca\":\"Maybelline\",\r\n    \"color\":\"Miel\",\r\n    \"acabado\": \"Mate\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertamos Rostro4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":678,\r\n    \"nombre\":\"Rostro4\",\r\n    \"precio\":3700,\r\n    \"stock\":10,\r\n    \"marca\":\"Maybelline\",\r\n    \"color\":\"Caramelo\",\r\n    \"acabado\": \"Mate\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminamos el producto Rostro4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/eliminate/678",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"eliminate",
+						"678"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificamos el precio del producto Ojos2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\":352,\r\n    \"nombre\":\"Ojos2\",\r\n    \"precio\":5000,\r\n    \"stock\":150,\r\n    \"marca\":\"Maybelline\",\r\n    \"color\":\"Dorado\",\r\n    \"acabado\": \"Satinado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/modify",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"modify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nos permite ver todos los productos que tenemos y cada uno de sus atributos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nos permite encontrar a un producto a partir de su codigo(en este caso al producto Labios1)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/890",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"890"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nos permite poder ver el precio de un producto en dolares(en este caso de Ojos3)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/maquillaje/usd/567",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"maquillaje",
+						"usd",
+						"567"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
